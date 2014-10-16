@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls import patterns, url, include
 from p3p.views import XmlView, P3PView
 
 urlpatterns = patterns('p3p.views',
